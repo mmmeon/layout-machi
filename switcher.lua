@@ -276,6 +276,10 @@ function module.start(c, exit_keys)
         ["a"] = "Left",
         ["s"] = "Down",
         ["d"] = "Right",
+        ["k"] = "Up",
+        ["h"] = "Left",
+        ["j"] = "Down",
+        ["l"] = "Right",
     }
 
     awful.client.focus.history.disable_tracking()
